@@ -5,4 +5,4 @@ diretorio = 'C:\\Python27\\GEE\\Aula_3_Python\\resultados\\'
 
 gp.FlowDirection("MDE_Macae_de_Cima", diretorio + "direcao_de_fluxo.tif", "NORMAL")
 
-gp.FlowaAccumulation("direcao_de_fluxo.tif", diretorio + "acumulo_de_fluxo.tif", "NORMAL")
+gp.FlowAccumulation("direcao_de_fluxo.tif", diretorio + "acumulo_de_fluxo.tif")
